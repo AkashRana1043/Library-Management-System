@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Products</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    .search-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .search-box {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+    }
+
+    .search-input {
+        width: 300px;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        outline: none;
+    }
+
+    .search-input::placeholder {
+        color: black;
+    }
+
+    .search-btn {
+        background-color: #023775;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 16px;
+        margin-left: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        outline: none;
+    }
+
+    .search-btn:hover {
+        background-color: #023775;
+    }
+</style>
+</head>
+<body>
+
+<div class="search-container">
+    <div class="search-box">
+        <input type="text" placeholder="Search products" class="search-input" id="input"/>
+        <button class="search-btn">Search</button>
+    </div>
+    
+    <div><a href="gallery.html">Go Back</a></div>
+</div>
+
+
+</body>
+
+</html>
